@@ -1,5 +1,5 @@
 # Présentation sommaire de Rails
-
+![alt text](http://rubyonrails.org/images/rails-logo.svg "logo Rails")
 ---
 
 ## Sommaire:
@@ -59,10 +59,4 @@ Rails inclut nativement certaines méthodes, dont 4 sont plus connues sous l'acr
 
 [W3Schools](https://www.w3schools.com/tags/ref_httpmethods.asp)
 
-
-
-
-
-
-
-lien cours & RoR
+rubyonrails.org
