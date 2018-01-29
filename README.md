@@ -1,21 +1,21 @@
 # Présentation sommaire de Rails
 
 ## Sommaire:
-*Site statique/dynamique
-*Le MVC
-*Les routes
-*Les bases de données
-*GET/POST
-*La migration
-*Les relations entre modèles
-*Le CRUD
+* Site statique/dynamique
+* Le MVC
+* Les routes
+* Les bases de données
+* GET/POST
+* La migration
+* Les relations entre modèles
+* Le CRUD
 
-##* Site statique/dynamique
+## * Site statique/dynamique
 Un site statique est un site pré-écrit en HTML, stocké sur un serveur qui nous l'envoie tel quel sur demande. En opposition, un site dynamique est un site qui va être /"construit/" sur requête. Ce site pourra être construit a l'aide (entre autres) de scripts. Beaucoup d'entre eux sont élaborés en employant l'architecture dite "MVC".
 
 **_MVC? C'est quoi?_**
 
-##* Le MVC
+* ## Le MVC
 Le MVC, ou Modèle Vue Contrôleur, est une architecture de programmation: c'est une façon de ranger les fichiers et de les faire communiquer entre eux. Les Contrôleurs sont des classes contenant des méthodes, permettant d'agir dans les Modèles, un /"format/" de base de données, et de renvoyer les informations traitées a la Vue, la zone chargée de l'affichage du site.
 
 **_Mais comment l'utilisateur parvient-il a accéder au site? Lui, il ne peut que rentrer des URLs!_**
