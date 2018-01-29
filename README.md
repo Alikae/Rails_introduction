@@ -1,5 +1,7 @@
 # Présentation sommaire de Rails
 
+---
+
 ## Sommaire:
 * Site statique/dynamique
 * Le MVC
@@ -9,6 +11,8 @@
 * La migration
 * Les relations entre modèles
 * Le CRUD
+
+---
 
 * ## Site statique/dynamique
 Un site statique est un site pré-écrit en HTML, stocké sur un serveur qui nous l'envoie tel quel sur demande. En opposition, un site dynamique est un site qui va être /"construit/" sur requête. Ce site pourra être construit a l'aide (entre autres) de scripts. Beaucoup d'entre eux sont élaborés en employant l'architecture dite "MVC".
@@ -41,7 +45,7 @@ Bien sur! Tu te sers pour cela des migrations. Une migration te permet d'ajouter
 > **_Tes modèles, tu peux les lier entre eux? Ca pourrait être utile..._**
 
 * ## Les relations entre modèles
-Oui, tu peux lier tes modèles entre eux selon des "liens de parentés" grâce a des Associations, comme par exemple has\_many ou belong\_to. Ces deux la peuvent permettent de dire que le modèle -Article- has many -Comments- et que le modèle -Comment- belong to -Article-, c'est à dire que chaque article peut posséder plusieurs commentaires, mais que chaque commentaire appartient a un seul article. Il existe également 4 autres types d'Associations, tu peux aller sur http://guides.rubyonrails.org/association_basics.html pour les voir toutes.
+Oui, tu peux lier tes modèles entre eux selon des "liens de parentés" grâce a des Associations, comme par exemple has\_many ou belong\_to. Ces deux la peuvent permettent de dire que le modèle -Article- has many -Comments- et que le modèle -Comment- belong to -Article-, c'est à dire que chaque article peut posséder plusieurs commentaires, mais que chaque commentaire appartient a un seul article. Il existe également 4 autres types d'Associations, tu peux aller sur [ce site](http://guides.rubyonrails.org/association_basics.html) pour les voir toutes.
 
 > **_Comment tu permets a ton application de modifier ta base de donnée?_**
 
@@ -52,6 +56,7 @@ Rails inclut nativement certaines méthodes, dont 4 sont plus connues sous l'acr
 
 * ## Liens complémentaires:
 http://french.railstutorial.org/chapters/beginning
+
 https://www.w3schools.com/tags/ref_httpmethods.asp
 
 
