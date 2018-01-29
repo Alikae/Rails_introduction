@@ -25,7 +25,7 @@ Le MVC, ou Modèle Vue Contrôleur, est une architecture de programmation: c'est
 > **_Mais comment l'utilisateur parvient-il a accéder au site? Lui, il ne peut que rentrer des URLs!_**
 
 * ### Les routes
-C'est la qu'interviennent les routes. Ce sont des lignes de code permettant d'apparier des URLs à des actions(méthodes) de contrôleurs. Ainsi, lorsque la requète arrive sur le serveur, elle va directement analyser les routes disponibles poyur savoir quelle action de quel contrôleur activer. Elles sont stockées dans le fichier config/routes.rb et sont par exemple de la forme `get \'/URL\' => \'Controller#action\'`
+C'est la qu'interviennent les routes. Ce sont des lignes de code permettant d'apparier des URLs à des actions(méthodes) de contrôleurs. Ainsi, lorsque la requète arrive sur le serveur, elle va directement analyser les routes disponibles poyur savoir quelle action de quel contrôleur activer. Elles sont stockées dans le fichier config/routes.rb et sont par exemple de la forme `get '/URL' => 'Controller#action'`
 
 > **_Tout a l'heure tu parlais de base de données... C'est quoi exactement?_**
 
@@ -39,7 +39,7 @@ Le protocole utilisé pour la communication entre client et serveur est souvent 
 
 > **_Je repense aux bases de données. Toi, exterieurement au programme, tu peux les modifier?_**
 
-* ### La migration
+* ### La migration :photo:
 Bien sur! Tu te sers pour cela des migrations. Une migration te permet d'ajouter des données (Tables, modèles...) dans ta database et d'en prendre une "photo". Ainsi, tu pourras a l'avenir revenir à d'anciennes migrations et les modifier ou les supprimer.
 
 > **_Tes modèles, tu peux les lier entre eux? Ca pourrait être utile..._**
@@ -59,4 +59,4 @@ Rails inclut nativement certaines méthodes, dont 4 sont plus connues sous l'acr
 
 [W3Schools](https://www.w3schools.com/tags/ref_httpmethods.asp)
 
-rubyonrails.org
+[Site officiel de Rails](http://rubyonrails.org/)
