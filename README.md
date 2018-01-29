@@ -25,7 +25,7 @@ Le MVC, ou Modèle Vue Contrôleur, est une architecture de programmation: c'est
 > **_Mais comment l'utilisateur parvient-il a accéder au site? Lui, il ne peut que rentrer des URLs!_**
 
 * ### Les routes
-C'est la qu'interviennent les routes. Ce sont des lignes de code permettant d'apparier des URLs à des actions(méthodes) de contrôleurs. Ainsi, lorsque la requète arrive sur le serveur, elle va directement analyser les routes disponibles poyur savoir quelle action de quel contrôleur activer. Elles sont stockées dans le fichier config/routes.rb et sont par exemple de la forme ' get \'/URL\' => \'Controller#action\' '
+C'est la qu'interviennent les routes. Ce sont des lignes de code permettant d'apparier des URLs à des actions(méthodes) de contrôleurs. Ainsi, lorsque la requète arrive sur le serveur, elle va directement analyser les routes disponibles poyur savoir quelle action de quel contrôleur activer. Elles sont stockées dans le fichier config/routes.rb et sont par exemple de la forme `get \'/URL\' => \'Controller#action\'`
 
 > **_Tout a l'heure tu parlais de base de données... C'est quoi exactement?_**
 
