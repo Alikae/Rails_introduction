@@ -15,17 +15,17 @@
 ---
 
 * ### Site statique/dynamique
-Un site statique est un site pré-écrit en HTML, stocké sur un serveur qui nous l'envoie tel quel sur demande. En opposition, un site dynamique est un site qui va être /"construit/" sur requête. Ce site pourra être construit a l'aide (entre autres) de scripts. Beaucoup d'entre eux sont élaborés en employant l'architecture dite "MVC".
+Un site statique est un site pré-écrit en HTML, stocké sur un serveur qui nous l'envoie tel quel sur demande. En opposition, un site dynamique est un site qui va être "construit" sur requête. Ce site pourra être construit a l'aide (entre autres) de scripts. Beaucoup d'entre eux sont élaborés en employant l'architecture dite "MVC".
 
 > **_MVC? C'est quoi?_**
 
 * ### Le MVC
-Le MVC, ou Modèle Vue Contrôleur, est une architecture de programmation: c'est une façon de ranger les fichiers et de les faire communiquer entre eux. Les Contrôleurs sont des classes contenant des méthodes, permettant d'agir dans les Modèles, un /"format/" de base de données, et de renvoyer les informations traitées a la Vue, la zone chargée de l'affichage du site.
+Le MVC, ou Modèle Vue Contrôleur, est une architecture de programmation: c'est une façon de ranger les fichiers et de les faire communiquer entre eux. Les Contrôleurs sont des classes contenant des méthodes, permettant d'agir dans les Modèles, un "format" de base de données, et de renvoyer les informations traitées a la Vue, la zone chargée de l'affichage du site.
 
 > **_Mais comment l'utilisateur parvient-il a accéder au site? Lui, il ne peut que rentrer des URLs!_**
 
 * ### Les routes
-C'est la qu'interviennent les routes. Ce sont des lignes de code permettant d'apparier des URLs à des actions(méthodes) de contrôleurs. Ainsi, lorsque la requète arrive sur le serveur, elle va directement analyser les routes disponibles poyur savoir quelle action de quel contrôleur activer. Elles sont stockées dans le fichier config/routes.rb.
+C'est la qu'interviennent les routes. Ce sont des lignes de code permettant d'apparier des URLs à des actions(méthodes) de contrôleurs. Ainsi, lorsque la requète arrive sur le serveur, elle va directement analyser les routes disponibles poyur savoir quelle action de quel contrôleur activer. Elles sont stockées dans le fichier config/routes.rb et sont par exemple de la forme 'get \'/URL\' => \'Controller#action\' '
 
 > **_Tout a l'heure tu parlais de base de données... C'est quoi exactement?_**
 
