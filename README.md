@@ -39,7 +39,7 @@ Le protocole utilisé pour la communication entre client et serveur est souvent 
 
 > **_Je repense aux bases de données. Toi, exterieurement au programme, tu peux les modifier?_**
 
-* ### La migration :photo:
+* ### La migration :camera:
 Bien sur! Tu te sers pour cela des migrations. Une migration te permet d'ajouter des données (Tables, modèles...) dans ta database et d'en prendre une "photo". Ainsi, tu pourras a l'avenir revenir à d'anciennes migrations et les modifier ou les supprimer.
 
 > **_Tes modèles, tu peux les lier entre eux? Ca pourrait être utile..._**
