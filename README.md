@@ -61,4 +61,4 @@ Rails inclut nativement certaines méthodes, dont 4 sont plus connues sous l'acr
 
 [Site officiel de Rails](http://rubyonrails.org/)
 
-## < / End > Yo
+## < / E n d >
