@@ -49,12 +49,12 @@ Oui, tu peux lier tes modèles entre eux selon des "liens de parentés" grâce a
 
 > **_Comment tu permets a ton application de modifier ta base de donnée?_**
 
-* ### Le CRUD :C: :r: :U: :d:
+* ### Le CRUD :memo:
 Rails inclut nativement certaines méthodes, dont 4 sont plus connues sous l'acronyme CRUD(Create, Read, Update, Delete). Elles permettent de créer, lire, mettre a jour et supprimer des éléments de ta base de donnée. Tu t'en serviras pour permettre a l'utilisateur d'effectuer ces actions sur par exemple des commentaires, des posts, des vidéos... Enfin, tout le contenu que tu veux sur ton site quoi.
 
 > **_Bon, je crois que je commence a comprendre. Je pourrais me renseigner ailleurs?_**
 
-* ### Liens complémentaires:
+* ### Liens complémentaires: :book: :book: :book:
 [rails tutorial](http://french.railstutorial.org/chapters/beginning)
 
 [W3Schools](https://www.w3schools.com/tags/ref_httpmethods.asp)
