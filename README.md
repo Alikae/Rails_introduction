@@ -25,17 +25,17 @@ Le MVC, ou Modèle Vue Contrôleur, est une architecture de programmation: c'est
 > **_Mais comment l'utilisateur parvient-il a accéder au site? Lui, il ne peut que rentrer des URLs!_**
 
 * ### Les routes :bullettrain_side:
-C'est la qu'interviennent les routes. Ce sont des lignes de code permettant d'apparier des URLs à des actions(méthodes) de contrôleurs. Ainsi, lorsque la requète arrive sur le serveur, elle va directement analyser les routes disponibles poyur savoir quelle action de quel contrôleur activer. Elles sont stockées dans le fichier config/routes.rb et sont par exemple de la forme `get '/URL' => 'Controller#action'`
+C'est la qu'interviennent les routes. Ce sont des lignes de code permettant d'apparier des URLs à des actions (méthodes) de contrôleurs. Ainsi, lorsque la requète arrive sur le serveur, elle va directement analyser les routes disponibles pour savoir quelle action de quel contrôleur activer. Elles sont stockées dans le fichier config/routes.rb et sont par exemple de la forme `get '/URL' => 'Controller#action'`
 
 > **_Tout a l'heure tu parlais de base de données... C'est quoi exactement?_**
 
 * ### Les bases de données: :book:
-Tu peux considérer la base de données comme une immense bibliothèque dans laquelle ton programme peut lire et écrire. Les modèles sont une architecture prédéfinie de base de donnée, par exemple on peut stocker un modèle \"utilisateur\" qui contiendra un identifiant et un mot de passe. Ainsi, tu pourras créer autant d' \"instances\" de modèle Utilisateur que tu veux, et chacun aura une place pour stocker son identifiant et son mot de passe. C'est un peu une \"classe\" de constructtion de tables(tableaux contenants les données).
+Tu peux considérer la base de données comme une immense bibliothèque dans laquelle ton programme peut lire et écrire. Les modèles sont une architecture prédéfinie de base de donnée, par exemple on peut stocker un modèle \"utilisateur\" qui contiendra un identifiant et un mot de passe. Ainsi, tu pourras créer autant d' \"instances\" de modèle Utilisateur que tu veux, et chacun aura une place pour stocker son identifiant et son mot de passe. C'est une "classe" de construction de tables (tableaux contenants les données).
 
 > **_Et comment l'application, stockée sur le serveur, communique t-elle avec l'utilisateur?_**
 
 * ### GET/POST :arrow_lower_left: :arrow_upper_right:
-Le protocole utilisé pour la communication entre client et serveur est souvent HTTP(Hypertext Transfer Protocol). Ses deux méthodes qui nous intéressent actuellement sont GET et POST. GET permet de recevoir des informations depuis le serveur, et POST sert à en y envoyer.
+Le protocole utilisé pour la communication entre client et serveur est souvent HTTP (HypertText Transfer Protocol). Ses deux méthodes qui nous intéressent actuellement sont GET et POST. GET permet de recevoir des informations depuis le serveur, et POST sert à en y envoyer.
 
 > **_Je repense aux bases de données. Toi, exterieurement au programme, tu peux les modifier?_**
 
@@ -60,3 +60,5 @@ Rails inclut nativement certaines méthodes, dont 4 sont plus connues sous l'acr
 [W3Schools](https://www.w3schools.com/tags/ref_httpmethods.asp)
 
 [Site officiel de Rails](http://rubyonrails.org/)
+
+## </END>
